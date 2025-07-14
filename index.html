@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PECT Practice Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>PECT Practice Quiz</h1>
+
+        <div id="progress-bar-container">
+            <div id="progress-bar">0%</div>
+        </div>
+
+        <div id="question-container">
+            <p id="question">Question text will load here.</p>
+            <div class="options" id="options-container">
+                </div>
+            <button id="submit-btn" disabled>Submit</button>
+            <div id="feedback"></div>
+            <div id="explanation"></div>
+        </div>
+
+        <div id="results-container" style="display: none;">
+            <h2>Quiz Complete!</h2>
+            <p>Your Score: <span id="score">0</span> out of <span id="total-questions">0</span></p>
+            <p>Percentage: <span id="percentage-score">0</span>%</p>
+            <button id="restart-btn">Try a New Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
