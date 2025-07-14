@@ -560,7 +560,6 @@ const questions = [
         "correctAnswer": "B. Safety Data Sheet",
         explanation: "SDS stands for Safety Data Sheet, a document that provides comprehensive information about a hazardous chemical."
     }
-]
 ];
 
 const QUIZ_LENGTH = 50; // Set how many questions per quiz session
