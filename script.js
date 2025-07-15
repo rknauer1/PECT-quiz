@@ -499,25 +499,25 @@ const questions = [
         "options": ["A. Standard Dilution Specifications", "B. Safety Data Sheet", "C. System Danger Sheet", "D. Service and Dilution Sheet"],
         "correctAnswer": "B. Safety Data Sheet",
         "explanation": "SDS stands for Safety Data Sheet, a document that provides comprehensive information about a hazardous chemical."
-    }
+    },
     {
         "question": "What shall technicians do to prepare the kitchen appiances before cleaning?",
         "options": ["A. Move them out of the way", "B. Clean them off", "C. Wrap the hood with sheeting, plastic, or tarps", "D. Check their surface temperature"],
         "correctAnswer": "C. Wrap the hood with sheeting, plastic, or tarps",
         "explanation": "Cleaning that involves spraying requires the wrapping of hoods."
-    }
+    },
     {
         "question": "During cleaning, what should technicians do to the fire suppression system?",
         "options": ["A. Disable the system to prevent it from accidentally discharging", "B. Wrap it in plastic", "C. Technicians should not render the fire suppression system inoperable", "D. Clean every component of it"],
         "correctAnswer": "C. Technicians should not render the fire suppression system inoperable",
         "explanation": "Only qualified fire suppression technicians may render fire suppression systems inoperable."
-    }
+    },
     {
         "question": "According to NFPA 96, what parts of the kitchen exhaust system shall be inspected or cleaned?",
         "options": ["A. Hoods, filters, and fans", "B. The entire kitchen exhaust system", "C. The parts of the system that are easy to reach", "D. Grease removal devices such as filters"],
         "correctAnswer": "B. The entire kitchen exhaust system",
         "explanation": "NFPA 96 requires that the entire kitchen exhaust system be inspected or cleaned."
-    }
+    },
     {
         "question": "What is the primary purpose of a kitchen exhaust hood?",
         "options": ["A. To capture grease vapors and gases", "B. To make kitchen staff comfortable", "C. To recycle heated air", "D. To comply with clean air standards"],
