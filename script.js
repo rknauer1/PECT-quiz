@@ -15,8 +15,8 @@ const questions = [
     {
         "question": "A 24-hour restaurant primarily uses wok-style cooking. How often must its kitchen exhaust system be inspected for grease buildup?",
         "options": ["A. Annually", "B. Semiannually", "C. Quarterly", "D. Monthly"],
-        "correctAnswer": "D. Monthly",
-        "explanation": "According to NFPA 96, systems serving high-volume cooking operations like wok cooking require monthly inspections."
+        "correctAnswer": "C. Quarterly",
+        "explanation": "According to NFPA 96, systems serving high-volume cooking operations like wok cooking require quarterly inspections."
     },
     {
         "question": "A church kitchen is used for pancake breakfasts twice a year. What is the minimum required inspection frequency for its exhaust system?",
@@ -176,12 +176,6 @@ const questions = [
         "explanation": "OSHA's Hazard Communication Standard requires that employees must be trained on the hazards of chemicals before they are exposed to them in the workplace."
     },
     {
-        "question": "What does 'SDS' stand for?",
-        "options": ["A. Safety Drain System.", "B. System Decontamination Sheet.", "C. Safety Data Sheet.", "D. Standard Dilution System."],
-        "correctAnswer": "C. Safety Data Sheet.",
-        "explanation": "SDS stands for Safety Data Sheet, which is a standardized document containing detailed information about a hazardous chemical's properties and risks."
-    },
-    {
         "question": "How often must an employee be fit-tested for the specific make and model of respirator they use?",
         "options": ["A. Only once when they are first hired.", "B. Every five years.", "C. At least annually.", "D. Only after a significant weight change."],
         "correctAnswer": "C. At least annually.",
@@ -243,12 +237,6 @@ const questions = [
         "explanation": "Upon completion, the technician must ensure all electrical switches and system components, including the fan, are returned to a safe and operable state."
     },
     {
-        "question": "Grease filters must be installed at an angle no less than 45 degrees from the horizontal. What is the primary reason for this requirement?",
-        "options": ["A. To ensure proper airflow dynamics.", "B. To allow grease to drain effectively into the collection trough.", "C. To make them easier to remove for cleaning.", "D. To prevent flames from passing through."],
-        "correctAnswer": "B. To allow grease to drain effectively into the collection trough.",
-        "explanation": "Installing filters at a minimum 45-degree angle ensures that collected grease drains properly into the drip tray, preventing grease from dripping onto cooking surfaces."
-    },
-    {
         "question": "According to NFPA 96, how should a hood be sized relative to the appliances it covers?",
         "options": ["A. It must be exactly flush with the edges of the appliances.", "B. It must extend a minimum of 18 inches beyond all appliances.", "C. It must be adequately sized to capture all grease-laden vapors.", "D. It must be at least twice the width of the largest appliance."],
         "correctAnswer": "C. It must be adequately sized to capture all grease-laden vapors.",
@@ -271,12 +259,6 @@ const questions = [
         "options": ["A. The duct must be replaced with a larger one.", "B. Openings large enough for cleaning must be installed every 12 feet.", "C. Steam cleaning must be used exclusively.", "D. The cleaning company is not responsible for cleaning that section."],
         "correctAnswer": "B. Openings large enough for cleaning must be installed every 12 feet.",
         "explanation": "When a duct is too small for personnel entry, NFPA 96 requires that openings large enough to permit thorough cleaning must be installed at a maximum distance of every 12 feet."
-    },
-    {
-        "question": "What is the minimum rectangular access opening size required on the curvature of an upblast fan housing?",
-        "options": ["A. 2 x 4 inches", "B. 3 x 5 inches", "C. 4 x 6 inches", "D. 6 x 8 inches"],
-        "correctAnswer": "B. 3 x 5 inches",
-        "explanation": "To allow for cleaning of the fan's interior, upblast fans must have a rectangular access opening of at least 3x5 inches on the curvature of the fan housing."
     },
     {
         "question": "When must the main exhaust fan be in operation?",
@@ -345,12 +327,6 @@ const questions = [
         "explanation": "Lockout devices must be identifiable, meaning they must indicate the name of the employee who applied the device."
     },
     {
-        "question": "An upblast exhaust fan's point of discharge must be at least how far above the roof surface?",
-        "options": ["A. 18 inches", "B. 24 inches", "C. 40 inches", "D. 60 inches"],
-        "correctAnswer": "C. 40 inches",
-        "explanation": "The fan discharge must be at least 40 inches above the roof surface to ensure proper dispersal of exhaust and prevent grease from damaging the roof."
-    },
-    {
         "question": "During a cleaning, you accidentally damage the fire-resistant enclosure surrounding a section of ductwork. What is the correct action to take?",
         "options": ["A. Report the damage to the restaurant owner and leave the repair to them.", "B. Cover the damaged area with plastic sheeting.", "C. Repair and restore the enclosure to meet its original intended listing and fire rating.", "D. Contact the original installer of the enclosure to perform the repair."],
         "correctAnswer": "C. Repair and restore the enclosure to meet its original intended listing and fire rating.",
@@ -373,18 +349,6 @@ const questions = [
         "options": ["A. The grease reservoir has been emptied", "B. The fire suppression system is armed", "C. The exhaust fan and the supply fan are activated", "D. The adjacent cooking appliances are turned off"],
         "correctAnswer": "C. The exhaust fan and the supply fan are activated",
         "explanation": "To ensure proper capture of effluent, downdraft systems must be interlocked so that the cooking appliance cannot operate unless the exhaust and make-up air fans are running."
-    },
-    {
-        "question": "What is the minimum clearance required between an unenclosed exhaust duct and limited-combustible material?",
-        "options": ["A. 0 inches", "B. 3 inches", "C. 9 inches", "D. 18 inches"],
-        "correctAnswer": "B. 3 inches",
-        "explanation": "While the clearance to combustible material is 18 inches, the required clearance to limited-combustible material is reduced to 3 inches."
-    },
-    {
-        "question": "What is the minimum clearance between an unenclosed exhaust duct and noncombustible material?",
-        "options": ["A. 0 inches", "B. 1 inch", "C. 3 inches", "D. 6 inches"],
-        "correctAnswer": "A. 0 inches",
-        "explanation": "No clearance is required when an exhaust duct is adjacent to noncombustible materials like brick or concrete, as there is no risk of ignition."
     },
     {
         "question": "A rooftop termination outlet must have a minimum horizontal clearance of what distance from an adjacent building or air intake?",
@@ -429,12 +393,6 @@ const questions = [
         "explanation": "A broken or incomplete grease filter cannot function as designed. NFPA 96 mandates that such filters shall be replaced with new, functional ones."
     },
     {
-        "question": "A hinged upblast fan on a rooftop must be installed so that its point of attachment is at least how far away from the roof surface?",
-        "options": ["A. 10 inches", "B. 18 inches", "C. 36 inches", "D. 40 inches"],
-        "correctAnswer": "B. 18 inches",
-        "explanation": "The fan's curb or point of attachment must be at least 18 inches from the roof surface to allow for proper roofing and flashing to prevent leaks."
-    },
-    {
         "question": "A sign must be placed on all access panels. What must this sign say?",
         "options": ["A. CAUTION: HOT SURFACE", "B. RESTRICTED ACCESS", "C. ACCESS PANEL - DO NOT OBSTRUCT", "D. AUTHORIZED PERSONNEL ONLY"],
         "correctAnswer": "C. ACCESS PANEL - DO NOT OBSTRUCT",
@@ -447,28 +405,10 @@ const questions = [
         "explanation": "Due to the high heat and flare-up potential of solid fuel cooking, a minimum vertical clearance of 4 feet is required between the cooking surface and the filters to prevent a fire."
     },
     {
-        "question": "When may solid fuel cooking equipment share a common hood and duct system with other cooking equipment?",
-        "options": ["A. When an extra fire suppression nozzle is added", "B. When the fan is upgraded for higher airflow", "C. When the solid fuel unit is gas-operated and uses the solid fuel only for flavoring", "D. When the ductwork is inspected weekly instead of monthly"],
-        "correctAnswer": "C. When the solid fuel unit is gas-operated and uses the solid fuel only for flavoring",
-        "explanation": "Solid fuel units can only be combined with standard grease-vapor systems if the solid fuel is used only for flavoring, not as the primary heat source."
-    },
-    {
-        "question": "After a cleaning service, a written report must be provided to the system owner within what timeframe?",
-        "options": ["A. 48 hours", "B. 5 business days", "C. 2 weeks", "D. 30 days"],
-        "correctAnswer": "D. 30 days",
-        "explanation": "NFPA 96 allows up to 30 days for the service provider to deliver the written report detailing the cleaning and any deficiencies to the system owner."
-    },
-    {
         "question": "What is the primary function of a spark arrester in a solid fuel exhaust system?",
         "options": ["A. To enhance airflow for better combustion", "B. To capture airborne grease particles", "C. To minimize the passage of airborne sparks and embers into the ductwork", "D. To reduce noise from the exhaust fan"],
         "correctAnswer": "C. To minimize the passage of airborne sparks and embers into the ductwork",
         "explanation": "A spark arrester is a critical safety component in solid fuel systems designed to stop sparks and embers from entering the duct and potentially igniting creosote deposits."
-    },
-    {
-        "question": "How often must the total operation of a recirculating exhaust system be inspected by qualified service personnel?",
-        "options": ["A. Quarterly", "B. Every 6 months", "C. Annually", "D. Bi-annually"],
-        "correctAnswer": "B. Every 6 months",
-        "explanation": "Recirculating systems are complex and require a thorough inspection of all components, including electronics and filters, at least every 6 months."
     },
     {
         "question": "What is the minimum required space between a deep fat fryer and surface flames from adjacent cooking equipment?",
@@ -537,12 +477,6 @@ const questions = [
         "explanation": "OSHA stands for the Occupational Safety and Health Administration, which sets and enforces workplace safety standards."
     },
     {
-        "question": "The acronym AHJ stands for Authority Having Jurisdiction. What is the role of the AHJ?",
-        "options": ["A. To manage the restaurant's daily operations.", "B. To represent the cleaning company in legal matters.", "C. An individual or organization, like a fire marshal, responsible for enforcing codes.", "D. The lead technician who has final authority on the job site."],
-        "correctAnswer": "C. An individual or organization, like a fire marshal, responsible for enforcing codes.",
-        "explanation": "The AHJ is the entity, such as the local fire marshal, responsible for approving and enforcing code compliance."
-    },
-    {
         "question": "What does the acronym EPA stand for, and why is it relevant to exhaust cleaners?",
         "options": ["A. Exhaust Performance Agency; it sets standards for fan efficiency.", "B. Environmental Protection Agency; it regulates the proper disposal of wastewater and hazardous materials.", "C. Emergency Protocol Administration; it outlines steps to take during a fire.", "D. Equipment Protection Agency; it certifies cleaning chemicals."],
         "correctAnswer": "B. Environmental Protection Agency; it regulates the proper disposal of wastewater and hazardous materials.",
@@ -559,6 +493,30 @@ const questions = [
         "options": ["A. Standard Dilution Specifications", "B. Safety Data Sheet", "C. System Danger Sheet", "D. Service and Dilution Sheet"],
         "correctAnswer": "B. Safety Data Sheet",
         "explanation": "SDS stands for Safety Data Sheet, a document that provides comprehensive information about a hazardous chemical."
+    }
+    {
+        "question": "What shall technicians do to prepare the kitchen appiances before cleaning?",
+        "options": ["A. Move them out of the way", "B. Clean them off", "C. Wrap the hood with sheeting, plastic, or tarps", "D. Check their surface temperature"],
+        "correctAnswer": "C. Wrap the hood with sheeting, plastic, or tarps",
+        "explanation": "Cleaning that involves spraying requires the wrapping of hoods."
+    }
+    {
+        "question": "During cleaning, what should technicians do to the fire suppression system?",
+        "options": ["A. Disable the system to prevent it from accidentally discharging", "B. Wrap it in plastic", "C. Technicians should not render the fire suppression system inoperable", "D. Clean every component of it"],
+        "correctAnswer": "C. Technicians should not render the fire suppression system inoperable",
+        "explanation": "Only qualified fire suppression technicians may render fire suppression systems inoperable."
+    }
+    {
+        "question": "According to NFPA 96, what parts of the kitchen exhaust system shall be inspected or cleaned?",
+        "options": ["A. Hoods, filters, and fans", "B. The entire kitchen exhaust system", "C. The parts of the system that are easy to reach", "D. Grease removal devices such as filters"],
+        "correctAnswer": "B. The entire kitchen exhaust system",
+        "explanation": "NFPA 96 requires that the entire kitchen exhaust system be inspected or cleaned."
+    }
+    {
+        "question": "What is the primary purpose of a kitchen exhaust hood?",
+        "options": ["A. To capture grease vapors and gases", "B. To make kitchen staff comfortable", "C. To recycle heated air", "D. To comply with clean air standards"],
+        "correctAnswer": "A. To capture grease vapors and gases",
+        "explanation": "Kitchen exhaust hoods serve the primary purpose of capturing the grease laden vapors and gases produced by cooking."
     }
 ];
 
