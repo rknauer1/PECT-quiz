@@ -21,7 +21,7 @@ const questions = [
     {
         "question": "After a cleaning service, a written report must be provided to the system owner within what timeframe?",
         "options": ["A. 48 hours", "B. 5 business days", "C. 2 weeks", "D. 30 days"],
-        "correctAnswer": C. 2 weeks",
+        "correctAnswer": "C. 2 weeks",
         "explanation": "NFPA 96 allows up to two weeks for the service provider to deliver the written report detailing the cleaning and any deficiencies to the system owner."
     },
     {
