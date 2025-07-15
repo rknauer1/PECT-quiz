@@ -19,6 +19,12 @@ const questions = [
         "explanation": "According to NFPA 96, systems serving high-volume cooking operations like wok cooking require quarterly inspections."
     },
     {
+        "question": "After a cleaning service, a written report must be provided to the system owner within what timeframe?",
+        "options": ["A. 48 hours", "B. 5 business days", "C. 2 weeks", "D. 30 days"],
+        "correctAnswer": "D. 30 days",
+        "explanation": "NFPA 96 allows up to 30 days for the service provider to deliver the written report detailing the cleaning and any deficiencies to the system owner."
+    },
+    {
         "question": "A church kitchen is used for pancake breakfasts twice a year. What is the minimum required inspection frequency for its exhaust system?",
         "options": ["A. Annually", "B. Semiannually", "C. Quarterly", "D. Monthly"],
         "correctAnswer": "A. Annually",
